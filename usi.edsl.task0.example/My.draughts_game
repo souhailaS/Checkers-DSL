@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Draughts_Game:Draughts xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Draughts_Game="www.usi.ch/Draughts_Game">
+  <men/>
+  <men/>
+  <board>
+    <squares location="//@locations.5" color="Light"/>
+    <squares location="//@locations.6">
+      <mens/>
+    </squares>
+    <squares location="//@locations.3" color="Light"/>
+    <squares location="//@locations.1" color="Light"/>
+    <squares location="//@locations.4">
+      <mens/>
+    </squares>
+    <squares location="//@locations.7" color="Light"/>
+    <squares location="//@locations.2">
+      <mens/>
+    </squares>
+    <squares location="//@locations.15">
+      <mens/>
+    </squares>
+    <squares location="//@locations.8" color="Light"/>
+    <squares location="//@locations.10" color="Light"/>
+    <squares location="//@locations.12" color="Light"/>
+    <squares location="//@locations.14" color="Light"/>
+    <squares location="//@locations.13">
+      <mens/>
+    </squares>
+    <squares location="//@locations.11">
+      <mens/>
+    </squares>
+    <squares location="//@locations.9">
+      <mens/>
+    </squares>
+    <squares location="//@locations.21" color="Light"/>
+    <squares location="//@locations.29"/>
+    <squares location="//@locations.30" color="Light"/>
+    <squares location="//@locations.28" color="Light"/>
+    <squares location="//@locations.24" color="Light"/>
+    <squares location="//@locations.26" color="Light"/>
+    <squares location="//@locations.27">
+      <mens/>
+    </squares>
+    <squares location="//@locations.23" color="Light"/>
+    <squares location="//@locations.22"/>
+    <squares location="//@locations.25"/>
+    <squares location="//@locations.19" color="Light"/>
+    <squares location="//@locations.17" color="Light"/>
+    <squares location="//@locations.20"/>
+    <squares location="//@locations.18">
+      <mens/>
+    </squares>
+    <squares location="//@locations.16">
+      <mens/>
+    </squares>
+    <squares location="//@locations.37" color="Light"/>
+    <squares location="//@locations.35" color="Light"/>
+    <squares location="//@locations.33" color="Light"/>
+    <squares location="//@locations.42" color="Light"/>
+    <squares location="//@locations.44" color="Light"/>
+    <squares location="//@locations.39" color="Light"/>
+    <squares location="//@locations.46" color="Light"/>
+    <squares location="//@locations.40" color="Light"/>
+    <squares location="//@locations.49" color="Light"/>
+    <squares location="//@locations.51" color="Light"/>
+    <squares location="//@locations.53" color="Light"/>
+    <squares location="//@locations.55" color="Light"/>
+    <squares location="//@locations.31">
+      <mens/>
+    </squares>
+    <squares location="//@locations.47"/>
+    <squares location="//@locations.39">
+      <mens color="Light"/>
+    </squares>
+    <squares location="//@locations.54">
+      <mens color="Light"/>
+    </squares>
+    <squares location="//@locations.52">
+      <mens color="Light"/>
+    </squares>
+    <squares location="//@locations.45"/>
+    <squares location="//@locations.36">
+      <mens color="Light"/>
+    </squares>
+    <squares location="//@locations.43">
+      <mens color="Light"/>
+    </squares>
+    <squares location="//@locations.50">
+      <mens color="Light"/>
+    </squares>
+    <squares location="//@locations.48">
+      <mens color="Light"/>
+    </squares>
+    <squares location="//@locations.41">
+      <mens color="Light"/>
+    </squares>
+    <squares location="//@locations.32"/>
+    <squares location="//@locations.34"/>
+    <squares location="//@locations.0">
+      <mens/>
+    </squares>
+    <squares location="//@locations.57">
+      <mens color="Light"/>
+    </squares>
+    <squares location="//@locations.56" color="Light"/>
+    <squares location="//@locations.58" color="Light"/>
+    <squares location="//@locations.59">
+      <mens color="Light"/>
+    </squares>
+    <squares location="//@locations.60" color="Light"/>
+    <squares location="//@locations.61">
+      <mens color="Light"/>
+    </squares>
+    <squares location="//@locations.62" color="Light"/>
+    <squares location="//@locations.63">
+      <mens color="Light"/>
+    </squares>
+  </board>
+  <locations column="1"/>
+  <locations column="2"/>
+  <locations column="3"/>
+  <locations column="4"/>
+  <locations column="5"/>
+  <locations column="6"/>
+  <locations column="7"/>
+  <locations column="8"/>
+  <locations row="_2" column="1"/>
+  <locations row="_2" column="2"/>
+  <locations row="_2" column="3"/>
+  <locations row="_2" column="4"/>
+  <locations row="_2" column="5"/>
+  <locations row="_2" column="6"/>
+  <locations row="_2" column="7"/>
+  <locations row="_2" column="8"/>
+  <locations row="_3" column="1"/>
+  <locations row="_3" column="2"/>
+  <locations row="_3" column="3"/>
+  <locations row="_3" column="4"/>
+  <locations row="_3" column="5"/>
+  <locations row="_3" column="6"/>
+  <locations row="_3" column="7"/>
+  <locations row="_3" column="8"/>
+  <locations row="_4" column="1"/>
+  <locations row="_4" column="2"/>
+  <locations row="_4" column="3"/>
+  <locations row="_4" column="4"/>
+  <locations row="_4" column="5"/>
+  <locations row="_4" column="6"/>
+  <locations row="_4" column="7"/>
+  <locations row="_4" column="8"/>
+  <locations row="_5" column="1"/>
+  <locations row="_5" column="2"/>
+  <locations row="_5" column="3"/>
+  <locations row="_5" column="4"/>
+  <locations row="_5" column="5"/>
+  <locations row="_5" column="6"/>
+  <locations row="_5" column="7"/>
+  <locations row="_5" column="8"/>
+  <locations row="_6" column="1"/>
+  <locations row="_6" column="2"/>
+  <locations row="_6" column="3"/>
+  <locations row="_6" column="4"/>
+  <locations row="_6" column="5"/>
+  <locations row="_6" column="6"/>
+  <locations row="_6" column="7"/>
+  <locations row="_6" column="8"/>
+  <locations row="_7" column="1"/>
+  <locations row="_7" column="2"/>
+  <locations row="_7" column="3"/>
+  <locations row="_7" column="4"/>
+  <locations row="_7" column="5"/>
+  <locations row="_7" column="6"/>
+  <locations row="_7" column="7"/>
+  <locations row="_7" column="8"/>
+  <locations row="_8" column="1"/>
+  <locations row="_8" column="2"/>
+  <locations row="_8" column="3"/>
+  <locations row="_8" column="4"/>
+  <locations row="_8" column="5"/>
+  <locations row="_8" column="6"/>
+  <locations row="_8" column="7"/>
+  <locations row="_8" column="8"/>
+  <locations/>
+</Draughts_Game:Draughts>

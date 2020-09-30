@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="Draughts_Game" nsURI="www.usi.ch/Draughts_Game" nsPrefix="Draughts_Game">
+  <eClassifiers xsi:type="ecore:EClass" name="Draughts">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="men" upperBound="-1" eType="#//Man"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="board" lowerBound="1" eType="#//Board"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="locations" lowerBound="64"
+        upperBound="64" eType="#//Location" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Man">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="captures" upperBound="-1"
+        eType="#//Man"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="color" eType="#//COLOR"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="location" eType="#//Location"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="King" eSuperTypes="#//Man"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="COLOR">
+    <eLiterals name="Dark" literal="Dark"/>
+    <eLiterals name="Light" value="1" literal="Light"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Location">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="row" eType="#//ROW"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="column" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EChar"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="ROW">
+    <eLiterals name="_1" value="1" literal="_1"/>
+    <eLiterals name="_2" value="2" literal="_2"/>
+    <eLiterals name="_3" value="3" literal="_3"/>
+    <eLiterals name="_4" value="4" literal="_4"/>
+    <eLiterals name="_5" value="5" literal="_5"/>
+    <eLiterals name="_6" value="6" literal="_6"/>
+    <eLiterals name="_7" value="7" literal="_7"/>
+    <eLiterals name="_8" value="8" literal="_8"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="COLUMN">
+    <eLiterals name="A" value="1" literal="A"/>
+    <eLiterals name="B" value="2" literal="B"/>
+    <eLiterals name="C" value="3" literal="C"/>
+    <eLiterals name="D" value="4" literal="D"/>
+    <eLiterals name="E" value="5" literal="E"/>
+    <eLiterals name="F" value="6" literal="F"/>
+    <eLiterals name="G" value="7" literal="G"/>
+    <eLiterals name="H" value="8" literal="H"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Board">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="squares" lowerBound="64"
+        upperBound="64" eType="#//Square" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Square">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="location" lowerBound="1"
+        eType="#//Location"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="mens" eType="#//Man" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="color" eType="#//COLOR"/>
+  </eClassifiers>
+</ecore:EPackage>

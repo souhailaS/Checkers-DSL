@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/usi.edsl.task0/src" modelPluginID="usi.edsl.task0"
+    modelName="My" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>My.ecore</foreignModel>
+  <genPackages prefix="Draughts_Game" disposableProviderFactory="true" ecorePackage="My.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="My.ecore#//COLOR">
+      <genEnumLiterals ecoreEnumLiteral="My.ecore#//COLOR/Dark"/>
+      <genEnumLiterals ecoreEnumLiteral="My.ecore#//COLOR/Light"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="My.ecore#//ROW">
+      <genEnumLiterals ecoreEnumLiteral="My.ecore#//ROW/_1"/>
+      <genEnumLiterals ecoreEnumLiteral="My.ecore#//ROW/_2"/>
+      <genEnumLiterals ecoreEnumLiteral="My.ecore#//ROW/_3"/>
+      <genEnumLiterals ecoreEnumLiteral="My.ecore#//ROW/_4"/>
+      <genEnumLiterals ecoreEnumLiteral="My.ecore#//ROW/_5"/>
+      <genEnumLiterals ecoreEnumLiteral="My.ecore#//ROW/_6"/>
+      <genEnumLiterals ecoreEnumLiteral="My.ecore#//ROW/_7"/>
+      <genEnumLiterals ecoreEnumLiteral="My.ecore#//ROW/_8"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="My.ecore#//COLUMN">
+      <genEnumLiterals ecoreEnumLiteral="My.ecore#//COLUMN/A"/>
+      <genEnumLiterals ecoreEnumLiteral="My.ecore#//COLUMN/B"/>
+      <genEnumLiterals ecoreEnumLiteral="My.ecore#//COLUMN/C"/>
+      <genEnumLiterals ecoreEnumLiteral="My.ecore#//COLUMN/D"/>
+      <genEnumLiterals ecoreEnumLiteral="My.ecore#//COLUMN/E"/>
+      <genEnumLiterals ecoreEnumLiteral="My.ecore#//COLUMN/F"/>
+      <genEnumLiterals ecoreEnumLiteral="My.ecore#//COLUMN/G"/>
+      <genEnumLiterals ecoreEnumLiteral="My.ecore#//COLUMN/H"/>
+    </genEnums>
+    <genClasses ecoreClass="My.ecore#//Draughts">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference My.ecore#//Draughts/men"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference My.ecore#//Draughts/board"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference My.ecore#//Draughts/locations"/>
+    </genClasses>
+    <genClasses ecoreClass="My.ecore#//Man">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference My.ecore#//Man/captures"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My.ecore#//Man/color"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference My.ecore#//Man/location"/>
+    </genClasses>
+    <genClasses ecoreClass="My.ecore#//King"/>
+    <genClasses ecoreClass="My.ecore#//Location">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My.ecore#//Location/row"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My.ecore#//Location/column"/>
+    </genClasses>
+    <genClasses ecoreClass="My.ecore#//Board">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference My.ecore#//Board/squares"/>
+    </genClasses>
+    <genClasses ecoreClass="My.ecore#//Square">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference My.ecore#//Square/location"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference My.ecore#//Square/mens"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My.ecore#//Square/color"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
